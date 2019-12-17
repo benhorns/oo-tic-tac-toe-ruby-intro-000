@@ -54,7 +54,7 @@ end
     end
 
     def turn
-           puts "Welcome to TicTacToe the most exciting interactive game known to man. Please enter 1-9:"
+           puts "Welcome to TicTacToe. Please enter 1-9:"
            display_board
            user_input = gets.strip
            index = input_to_index(user_input)
