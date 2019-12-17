@@ -97,7 +97,6 @@ end
      end
 
      def play
-   #binding.pry
     until over?
            turn
    end
